@@ -136,7 +136,7 @@ class Google extends AbstractProvider
             return;
         }
 
-        if ($this->hostedDomain === '*' && $hostedDomain) {
+        if ($this->hostedDomain === '*') {
             // Any hosted domain is allowed.
             return;
         }
